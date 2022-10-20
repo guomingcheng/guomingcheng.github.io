@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{381:function(t,n,s){"use strict";s.r(n);var e=s(46),i=Object(e.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[n("h2",{attrs:{id:"xinNian"}},[this._v("如果人生能够重来，我大概还是这样")])])}),[],!1,null,null,null);n.default=i.exports}}]);

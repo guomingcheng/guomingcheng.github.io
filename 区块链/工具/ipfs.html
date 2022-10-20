@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>liunx 系统的命令 | 文档</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/index.js"></script>
+    <meta name="description" content="个人文档">
+    
+    <link rel="preload" href="/assets/css/0.styles.8cd2006c.css" as="style"><link rel="preload" href="/assets/js/app.ce1393de.js" as="script"><link rel="preload" href="/assets/js/2.ee68cb5d.js" as="script"><link rel="preload" href="/assets/js/69.533a79a4.js" as="script"><link rel="prefetch" href="/assets/js/10.fae9557b.js"><link rel="prefetch" href="/assets/js/11.ec03d5d9.js"><link rel="prefetch" href="/assets/js/12.aa5ec6e6.js"><link rel="prefetch" href="/assets/js/13.fa27dbe3.js"><link rel="prefetch" href="/assets/js/14.27428945.js"><link rel="prefetch" href="/assets/js/15.e19dc613.js"><link rel="prefetch" href="/assets/js/16.ac5d0041.js"><link rel="prefetch" href="/assets/js/17.b015baa0.js"><link rel="prefetch" href="/assets/js/18.d790bc9c.js"><link rel="prefetch" href="/assets/js/19.7f450609.js"><link rel="prefetch" href="/assets/js/20.504a3fd4.js"><link rel="prefetch" href="/assets/js/21.fcc0c1f7.js"><link rel="prefetch" href="/assets/js/22.1e27d5c1.js"><link rel="prefetch" href="/assets/js/23.e7de804c.js"><link rel="prefetch" href="/assets/js/24.89d96b41.js"><link rel="prefetch" href="/assets/js/25.47d860f4.js"><link rel="prefetch" href="/assets/js/26.03bbdba6.js"><link rel="prefetch" href="/assets/js/27.adba25d3.js"><link rel="prefetch" href="/assets/js/28.51f6ec86.js"><link rel="prefetch" href="/assets/js/29.3d75e6eb.js"><link rel="prefetch" href="/assets/js/3.af3b0f40.js"><link rel="prefetch" href="/assets/js/30.3ea92647.js"><link rel="prefetch" href="/assets/js/31.50e89190.js"><link rel="prefetch" href="/assets/js/32.2330f5a5.js"><link rel="prefetch" href="/assets/js/33.3db8ae98.js"><link rel="prefetch" href="/assets/js/34.b38625c8.js"><link rel="prefetch" href="/assets/js/35.49492a46.js"><link rel="prefetch" href="/assets/js/36.5a949c11.js"><link rel="prefetch" href="/assets/js/37.e1595cca.js"><link rel="prefetch" href="/assets/js/38.5e66f157.js"><link rel="prefetch" href="/assets/js/39.e118d131.js"><link rel="prefetch" href="/assets/js/4.dcedff1a.js"><link rel="prefetch" href="/assets/js/40.9b43fbc7.js"><link rel="prefetch" href="/assets/js/41.d9116c83.js"><link rel="prefetch" href="/assets/js/42.95c96c90.js"><link rel="prefetch" href="/assets/js/43.a92421aa.js"><link rel="prefetch" href="/assets/js/44.e19be0d2.js"><link rel="prefetch" href="/assets/js/45.def7c4a5.js"><link rel="prefetch" href="/assets/js/46.b4d92a6e.js"><link rel="prefetch" href="/assets/js/47.de8d2dc3.js"><link rel="prefetch" href="/assets/js/48.21f95edd.js"><link rel="prefetch" href="/assets/js/49.26d21bfa.js"><link rel="prefetch" href="/assets/js/5.1bf7576d.js"><link rel="prefetch" href="/assets/js/50.1ea86b8f.js"><link rel="prefetch" href="/assets/js/51.034e7576.js"><link rel="prefetch" href="/assets/js/52.9afafe11.js"><link rel="prefetch" href="/assets/js/53.688c4d83.js"><link rel="prefetch" href="/assets/js/54.13bfb729.js"><link rel="prefetch" href="/assets/js/55.e066dc58.js"><link rel="prefetch" href="/assets/js/56.c036e408.js"><link rel="prefetch" href="/assets/js/57.007d50cf.js"><link rel="prefetch" href="/assets/js/58.3f670fa2.js"><link rel="prefetch" href="/assets/js/59.f41e8ae6.js"><link rel="prefetch" href="/assets/js/6.8cf2a95e.js"><link rel="prefetch" href="/assets/js/60.f0fda430.js"><link rel="prefetch" href="/assets/js/61.ae4987fd.js"><link rel="prefetch" href="/assets/js/62.3c3e0b82.js"><link rel="prefetch" href="/assets/js/63.87900c10.js"><link rel="prefetch" href="/assets/js/64.9ffbb746.js"><link rel="prefetch" href="/assets/js/65.52ffe053.js"><link rel="prefetch" href="/assets/js/66.0b20125c.js"><link rel="prefetch" href="/assets/js/67.cd8a1668.js"><link rel="prefetch" href="/assets/js/68.97020436.js"><link rel="prefetch" href="/assets/js/7.299203e9.js"><link rel="prefetch" href="/assets/js/70.29933dd9.js"><link rel="prefetch" href="/assets/js/71.f88421fc.js"><link rel="prefetch" href="/assets/js/72.95de2bad.js"><link rel="prefetch" href="/assets/js/73.4a4257cc.js"><link rel="prefetch" href="/assets/js/74.659aab88.js"><link rel="prefetch" href="/assets/js/75.cadd4a65.js"><link rel="prefetch" href="/assets/js/76.254b9f42.js"><link rel="prefetch" href="/assets/js/77.e5b5a87b.js"><link rel="prefetch" href="/assets/js/78.b1b2dd8d.js"><link rel="prefetch" href="/assets/js/79.cbbbe000.js"><link rel="prefetch" href="/assets/js/8.c093787a.js"><link rel="prefetch" href="/assets/js/80.2b85c169.js"><link rel="prefetch" href="/assets/js/81.c6f26762.js"><link rel="prefetch" href="/assets/js/9.010ac11f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8cd2006c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">文档</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/区块链.html" class="nav-link">
+  区块链
+</a></div><div class="nav-item"><a href="/英语.html" class="nav-link">
+  英语
+</a></div><div class="nav-item"><a href="/前端.html" class="nav-link">
+  前端
+</a></div><div class="nav-item"><a href="/疑问解述篇.html" class="nav-link">
+  疑问解述篇
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/区块链.html" class="nav-link">
+  区块链
+</a></div><div class="nav-item"><a href="/英语.html" class="nav-link">
+  英语
+</a></div><div class="nav-item"><a href="/前端.html" class="nav-link">
+  前端
+</a></div><div class="nav-item"><a href="/疑问解述篇.html" class="nav-link">
+  疑问解述篇
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>以太坊</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>配置</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>交易所</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>工具</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/区块链/工具/hashlips_art_engine.html" class="sidebar-link">hashlips</a></li><li><a href="/区块链/工具/hardhat.html" class="sidebar-link">hardhat</a></li><li><a href="/区块链/工具/openzeppelin.html" class="sidebar-link">openzeppelin</a></li><li><a href="/区块链/工具/ipfs.html" class="active sidebar-link">ipfs</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/区块链/工具/ipfs.html#liunx-系统的命令" class="sidebar-link">liunx 系统的命令</a></li><li class="sidebar-sub-header"><a href="/区块链/工具/ipfs.html#在-centsos7-环境安装-ipfs" class="sidebar-link">在 centsOs7 环境安装 ipfs</a></li><li class="sidebar-sub-header"><a href="/区块链/工具/ipfs.html#文件上传到-ipfs" class="sidebar-link">文件上传到 ipfs</a></li><li class="sidebar-sub-header"><a href="/区块链/工具/ipfs.html#config-配置文件" class="sidebar-link">config 配置文件</a></li></ul></li><li><a href="/区块链/工具/telegram.html" class="sidebar-link">telegram</a></li><li><a href="/区块链/工具/telegramTblib.html" class="sidebar-link">telegramTblib</a></li><li><a href="/区块链/工具/graph.html" class="sidebar-link">graph</a></li><li><a href="/区块链/工具/ganache.html" class="sidebar-link">ganache</a></li><li><a href="/区块链/工具/docker.html" class="sidebar-link">docker</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="liunx-系统的命令"><a href="#liunx-系统的命令" class="header-anchor">#</a> liunx 系统的命令</h2> <h4 id="开放端口"><a href="#开放端口" class="header-anchor">#</a> &lt;&lt;开放端口&gt;&gt;</h4> <div><pre class="language-text">        <code>
+# 这个意思就是开放 8080 端口，以便外部访问 8080 端口的服务
+<span id="gonglian">firewall-cmd --zone=public --add-port=8080/tcp --permanent</span>
+# 这个意思就是关闭 8080 端口，外部就访问不了 8080 端口的服务了
+<span id="gonglian">firewall-cmd --zone=public --remove-port=8080/tcp --permanent</span>
+# 重新加载配置，这样开放的端口才能生效
+<span id="gonglian">firewall-cmd --reload</span>
+# 查看所有开放的端口
+<span id="gonglian">firewall-cmd --zone=public --list-ports</span>
+        </code>
+    </pre></div> <h4 id="防火墙命"><a href="#防火墙命" class="header-anchor">#</a> &lt;&lt;防火墙命&gt;&gt;</h4> <div><pre class="language-text">        <code>
+# 电脑重启
+<span id="gonglian">reboot</span>   
+# 查看防火墙的状态，打印的信息如有 <span id="gonglian"> active(running)</span> 就表示启动中
+<span id="gonglian">systemctl status firewalld.service</span>
+# 临时关闭防火墙，一旦电脑重启后，防火墙就要启动了。打印的信息如有 <span id="gonglian"> inactive(dead)</span> 就表示关闭了
+<span id="gonglian">systemctl stop firewalld</span>
+# 临时启动防火墙，如果防火墙的状态是默认关闭的，，一旦电脑重启后，防火墙就是关闭的，打印的信息如有 <span id="gonglian"> active(running) </span> 就表示启动中
+<span id="gonglian">systemctl start firewalld</span>
+# 永久关闭防火墙，电脑重启后，防火墙还是关闭状态
+<span id="gonglian">systemctl disable firewalld</span>
+# 永久启动防火墙，电脑重启后，防火墙还是启动状态
+<span id="gonglian">systemctl enable firewalld</span>
+        </code>
+    </pre></div> <h4 id="服务状态"><a href="#服务状态" class="header-anchor">#</a> &lt;&lt;服务状态&gt;&gt;</h4> <h5 id="在-centsos-7-默认是没有-netstat-命令-需要安装-yum-install-y-net-tools"><a href="#在-centsos-7-默认是没有-netstat-命令-需要安装-yum-install-y-net-tools" class="header-anchor">#</a> 在 centsOs 7 默认是没有 netstat 命令, 需要安装 <span id="gonglian"> yum install -y net-tools </span></h5> <div><pre class="language-text">        <code>
+# 查看服务是否启动，如果有服务占用了 5001 端口，就会显示出来 
+<span id="gonglian">netstat -lnpt|grep 5001</span>   
+        </code>
+    </pre></div> <h2 id="在-centsos7-环境安装-ipfs"><a href="#在-centsos7-环境安装-ipfs" class="header-anchor">#</a> 在 centsOs7 环境安装 ipfs</h2> <h4 id="ipfs-命令集"><a href="#ipfs-命令集" class="header-anchor">#</a> &lt;&lt;IPFS 命令集&gt;&gt;</h4> <div><pre class="language-text">        <code>
+# 查看 ipfs 版本，如果显示就证明安装成功了
+<span id="gonglian">ipfs version</span>  
+# 查看 ipfs 节点信息，包含了节点哈希
+<span id="gonglian">ipfs id</span>   
+# 显示配置文件中的内容
+<span id="gonglian">ipfs config show</span>   
+# 执行这俩步命令，可以进入 ipfs 的默认仓库，这里存放配置文件、数据、api 链接等信息
+<span id="gonglian">cd ~ cd .ipfs/</span>  
+# 启动 ipfs 节点
+<span id="gonglian">ipfs daemon</span>    
+        </code>
+    </pre></div> <h4 id="安装-ipfs"><a href="#安装-ipfs" class="header-anchor">#</a>   安装 IPFS</h4> <div class="language-angular2 extra-class"><pre class="language-text">        <code>
+# 1 安装 wget 下载工具
+<span id="gonglian">yum -y install wget</span>  
+# 2 在根目录创建 ipfs 目录，以便存放下载资源
+<span id="gonglian">mkdir ipfs</span>   
+# 3 切换创建的目录
+<span id="gonglian">cd ipfs</span>   
+# 4 下载 IPFS 提供的 liunx 版本 tar 包
+<span id="gonglian">wget https://github.com/ipfs/go-ipfs/releases/download/v0.4.23/go-ipfs_v0.4.23_linux-amd64.tar.gz/</span>  
+# 5 解压 tar 包
+<span id="gonglian">tar zxvf go-ipfs_v0.4.23_linux-amd64.tar.gz</span>   
+# 6 解压后会有 go-ipfs 文件夹，切换到这个文件夹
+<span id="gonglian">cd go-ipfs</span>    
+# 7 安装 ipfs
+<span id="gonglian">./install.sh</span>    
+# 8 验证安装是否成功，如果成功输出版本号，就表示安装好了
+<span id="gonglian">ipfs version</span> 
+# 9 初始化节点
+<span id="gonglian">ipfs init</span>   
+# 1 这个是输出 ipfs 节点信息
+<span id="gonglian">ipfs cat /ipfs/{CID}/readme</span>     
+        </code>
+    </pre></div> <h4 id="编辑-config-文件"><a href="#编辑-config-文件" class="header-anchor">#</a>   编辑 config 文件</h4> <h4 id="命令-ipfs-config-edit"><a href="#命令-ipfs-config-edit" class="header-anchor">#</a>     命令: ipfs config edit</h4> <h4 id="error"><a href="#error" class="header-anchor">#</a> <span class="red">     ERROR :</span></h4> <div class="language-angular2 extra-class"><pre class="language-text"><code>Error: ENV variable $EDITOR not set
+</code></pre></div><h4 id="method"><a href="#method" class="header-anchor">#</a> <span class="span-lu">     METHOD:</span></h4> <div class="language-angular2 extra-class"><pre class="language-text"><code>export EDITOR=vi
+</code></pre></div><h2 id="文件上传到-ipfs"><a href="#文件上传到-ipfs" class="header-anchor">#</a> 文件上传到 ipfs</h2> <div><pre class="language-text">        <code>
+# 使用这个命令，可以把文件夹，或者一个文件添加到 ipfs
+<span id="gonglian">ipfs add -r ./ipfs/</span> 
+        </code>
+    </pre></div> <div class="language-angular2 extra-class"><pre class="language-text"><code># 输出
+
+[root@localhost ipfs]# ipfs add -r  ./ipfs/
+ added QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn ipfs/name.txt
+ added QmX3GXDfVEG5HRChoiAstYKjiZuAkwKojaPhzExvMiY4U3 ipfs
+ 0 B / ? [------------------------------------------------------------------------
+</code></pre></div><div><pre class="language-text">        <code>
+# 这是把文件夹或者文件得 CID 发送到 ipfs 上，这一步成功了就可以通过网关访问到这个资源了
+<span id="gonglian">ipfs name publish QmX3GXDfVEG5HRChoiAstYKjiZuAkwKojaPhzExvMiY4U3</span> 
+        </code>
+    </pre></div> <div class="language-angular2 extra-class"><pre class="language-text"><code># 输出
+
+[root@localhost ipfs]# ipfs name publish QmX3GXDfVEG5HRChoiAstYKjiZuAkwKojaPhzExvMiY4U3
+Published to QmcUuccBvYjTN1mj8oteqZMDqj6q7SRFFhytgbi683HpcJ: /ipfs/QmX3GXDfVEG5HRChoiAstYKjiZuAkwKojaPhzExvMiY4U3
+</code></pre></div><div><pre class="language-text">        <code>
+# 查看 ipfs 节点固定得所以 CID, 可以通过这样的方式，验证上次到 ipfs 的文件夹或者文件是否成功
+<span id="gonglian">ipfs name resolve [节点得 CID ]</span> 
+        </code>
+    </pre></div> <div><pre class="language-text">        <code>
+# 输出
+.
+[root@localhost ipfs]# <span id="gonglian"> ipfs id </span>
+{
+	&quot;ID&quot;: &quot;QmcUuccBvYjTN1mj8oteqZMDqj6q7SRFFhytgbi683HpcJ&quot;,
+	&quot;PublicKey&quot;: &quot;CAASpgIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUTGXw7tgxazQY1nUfjkcwOfcacOtCuQzzI5K3h6+fQiMqhjGzR2DRQUdZfZucf14U7NCT/oUawS9pAA/ou5LP0oMvRfOU3Gp2HYQJjXNKabtJXU++/ZkSMKxEh+3J7s1MJSoe3nwAq3SOqoP0H3r/iD4ymQ7R+mlu+Rx3qFUWJ6zsRXbF5PJs0l2F/M3LYoxdrvQLdNobvLZQIfnT77DoexRl/7D83qwcbgzkrb+KjKBkL2oJ3ejs5/lfAdlOnWeLwBzmXy0p9PmEd0V8OXSKh0ElDXN6EdzLV7xOsFZNqVX+tzDrmkGYfaY4yzhjWmc6/2V+h2b5VCT4f6W3ou7BAgMBAAE=&quot;,
+	&quot;Addresses&quot;: [
+		&quot;/ip4/127.0.0.1/tcp/4001/ipfs/QmcUuccBvYjTN1mj8oteqZMDqj6q7SRFFhytgbi683HpcJ&quot;,
+		&quot;/ip4/192.168.206.129/tcp/4001/ipfs/QmcUuccBvYjTN1mj8oteqZMDqj6q7SRFFhytgbi683HpcJ&quot;,
+		&quot;/ip6/::1/tcp/4001/ipfs/QmcUuccBvYjTN1mj8oteqZMDqj6q7SRFFhytgbi683HpcJ&quot;
+	],
+	&quot;AgentVersion&quot;: &quot;go-ipfs/0.4.23/&quot;,
+	&quot;ProtocolVersion&quot;: &quot;ipfs/0.1.0&quot;
+}
+[root@localhost ipfs]# <span id="gonglian"> ipfs name resolve QmcUuccBvYjTN1mj8oteqZMDqj6q7SRFFhytgbi683HpcJ </span>
+/ipfs/QmX3GXDfVEG5HRChoiAstYKjiZuAkwKojaPhzExvMiY4U3
+        </code>
+    </pre></div> <h2 id="config-配置文件"><a href="#config-配置文件" class="header-anchor">#</a> config 配置文件</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+	<span class="token string">&quot;API&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;HTTPHeaders&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;Access-Control-Allow-Origin&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token string">&quot;https://webui.ipfs.io&quot;</span><span class="token punctuation">,</span>
+				<span class="token string">&quot;http://webui.ipfs.io.ipns.localhost:8080&quot;</span><span class="token punctuation">,</span>
+				<span class="token string">&quot;http://127.0.0.1:5001&quot;</span>
+			<span class="token punctuation">]</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Addresses&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 这个不能暴露出去，因为控制台对 ipfs 这个节点有管理员的权限</span>
+        <span class="token comment">// 这是配置 ipfs 控制台的访问，12.0.0.1 就表示只能搭建节点的本机访问，如果设置成 0.0.0.0 就表示任何的电脑都可以访问到</span>
+		<span class="token string">&quot;API&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/ip4/127.0.0.1/tcp/5001&quot;</span><span class="token punctuation">,</span>               
+		<span class="token string">&quot;Announce&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;AppendAnnounce&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token comment">// 这个是配置网关资源访问，127.0.0.1 就表示 ipfs 上的资源只能是本机访问，如果设置成 0.0.0.0 就代表任何机器都可以访问</span>
+		<span class="token string">&quot;Gateway&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/ip4/127.0.0.1/tcp/8081&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;NoAnnounce&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Swarm&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+			<span class="token string">&quot;/ip4/0.0.0.0/tcp/4001&quot;</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;/ip6/::/tcp/4001&quot;</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;/ip4/0.0.0.0/udp/4001/quic&quot;</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;/ip6/::/udp/4001/quic&quot;</span>
+		<span class="token punctuation">]</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;AutoNAT&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 这是配置信任节点列表，只要把这里节点信息删除掉就成为私人节点了</span>
+	<span class="token string">&quot;Bootstrap&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token string">&quot;/dnsaddr/bootstrap.libp2p.io/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;/dnsaddr/bootstrap.libp2p.io/p2p/QmQCU2EcMqAqQPR2i9bChDtGNJchTbq5TbXJJ16u19uLTa&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;/dnsaddr/bootstrap.libp2p.io/p2p/QmbLHAnMoJPWSCR5Zhtx6BHJX9KiKNN6tpvbUcqanj75Nb&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;/ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;/ip4/104.131.131.82/udp/4001/quic/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ&quot;</span>
+	<span class="token punctuation">]</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;DNS&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;Resolvers&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Datastore&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;BloomFilterSize&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;GCPeriod&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1h&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;HashOnRead&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Spec&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;mounts&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token punctuation">{</span>
+					<span class="token string">&quot;child&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+						<span class="token string">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;blocks&quot;</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;shardFunc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/repo/flatfs/shard/v1/next-to-last/2&quot;</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;sync&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;flatfs&quot;</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span>
+					<span class="token string">&quot;mountpoint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/blocks&quot;</span><span class="token punctuation">,</span>
+					<span class="token string">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token string">&quot;flatfs.datastore&quot;</span><span class="token punctuation">,</span>
+					<span class="token string">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;measure&quot;</span>
+				<span class="token punctuation">}</span><span class="token punctuation">,</span>
+				<span class="token punctuation">{</span>
+					<span class="token string">&quot;child&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+						<span class="token string">&quot;compression&quot;</span><span class="token operator">:</span> <span class="token string">&quot;none&quot;</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;datastore&quot;</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;levelds&quot;</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span>
+					<span class="token string">&quot;mountpoint&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
+					<span class="token string">&quot;prefix&quot;</span><span class="token operator">:</span> <span class="token string">&quot;leveldb.datastore&quot;</span><span class="token punctuation">,</span>
+					<span class="token string">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;measure&quot;</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;mount&quot;</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;StorageGCWatermark&quot;</span><span class="token operator">:</span> <span class="token number">90</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;StorageMax&quot;</span><span class="token operator">:</span> <span class="token string">&quot;10GB&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Discovery&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;MDNS&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;Enabled&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;Interval&quot;</span><span class="token operator">:</span> <span class="token number">10</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Experimental&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;AcceleratedDHTClient&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;FilestoreEnabled&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;GraphsyncEnabled&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Libp2pStreamMounting&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;P2pHttpProxy&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;StrategicProviding&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;UrlstoreEnabled&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Gateway&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;APICommands&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;HTTPHeaders&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;Access-Control-Allow-Headers&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token string">&quot;X-Requested-With&quot;</span><span class="token punctuation">,</span>
+				<span class="token string">&quot;Range&quot;</span><span class="token punctuation">,</span>
+				<span class="token string">&quot;User-Agent&quot;</span>
+			<span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;Access-Control-Allow-Methods&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token string">&quot;GET&quot;</span>
+			<span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;Access-Control-Allow-Origin&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token string">&quot;*&quot;</span>
+			<span class="token punctuation">]</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;NoDNSLink&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;NoFetch&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;PathPrefixes&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;PublicGateways&quot;</span><span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;RootRedirect&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Writable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Identity&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;PeerID&quot;</span><span class="token operator">:</span> <span class="token string">&quot;12D3KooWGXm9Yt84HBDCz4P3uYCj1s9ydSXMRmDzf5pxU9HcTmKN&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Internal&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Ipns&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;RecordLifetime&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;RepublishPeriod&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;ResolveCacheSize&quot;</span><span class="token operator">:</span> <span class="token number">128</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Migration&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;DownloadSources&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Keep&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Mounts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;FuseAllowOther&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;IPFS&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/ipfs&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;IPNS&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/ipns&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Peering&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;Peers&quot;</span><span class="token operator">:</span> <span class="token keyword">null</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Pinning&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;RemoteServices&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;Plugins&quot;</span><span class="token operator">:</span> <span class="token keyword">null</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Provider&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;Strategy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Pubsub&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;DisableSigning&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Router&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Reprovider&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;Interval&quot;</span><span class="token operator">:</span> <span class="token string">&quot;12h&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Strategy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;all&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Routing&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;Type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;dht&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;Swarm&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;AddrFilters&quot;</span><span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;ConnMgr&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;GracePeriod&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1m&quot;</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;HighWater&quot;</span><span class="token operator">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;LowWater&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;Type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;basic&quot;</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;DisableBandwidthMetrics&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;DisableNatPortMap&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;RelayClient&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;RelayService&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;Transports&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;Multiplexers&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;Network&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;Security&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/区块链/工具/openzeppelin.html" class="prev">
+        openzeppelin
+      </a></span> <span class="next"><a href="/区块链/工具/telegram.html">
+        telegram
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ce1393de.js" defer></script><script src="/assets/js/2.ee68cb5d.js" defer></script><script src="/assets/js/69.533a79a4.js" defer></script>
+  </body>
+</html>
